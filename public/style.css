@@ -52,7 +52,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 280px;
-	background: url(https://raw.githubusercontent.com/ak-create/CSS-Animation-Background/refs/heads/main/bg.png);
+	background: url(bg.png);
 	animation: animateBg 25s linear infinite;
 	background-size: 1500px;
 	background-repeat: repeat-x;
@@ -86,6 +86,33 @@
 @keyframes car2 {
    0% { transform: translateX(0px) rotateY(180deg); }
    90%, 100% { transform: translateX(calc(-100vw - 200px)) rotateY(180deg); }
+}
+
+/* Objek awan */
+.cloud {
+    position: absolute;
+    max-width: 150px;
+    z-index: 5;
+    animation: cloudMove linear infinite;
+}
+.cloud1 {
+    top: 30px;
+    left: -200px;
+    animation-duration: 30s;
+}
+.cloud2 {
+    top: 100px;
+    left: -300px;
+    animation-duration: 40s;
+}
+.cloud3 {
+    top: 150px;
+    left: -250px;
+    animation-duration: 35s;
+}
+@keyframes cloudMove {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(100vw + 200px)); }
 }
 
 /* Container box untuk lirik dan judul lagu dengan efek glassmorphism */
