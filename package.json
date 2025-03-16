@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "lyrics-runner",
+    "ekspann"
+  ],
+  "author": "Punya Ekspann",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
