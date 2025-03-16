@@ -1,7 +1,7 @@
 # Lyrics Runners V2
 ini adalah script untuk membuat lirik runner yang dapat dijalankan di browser, bertujuan untuk membuat konten video sosial media.
 
-![](https://d.uguu.se/lSVzFUKN.png)
+![](https://raw.githubusercontent.com/Xvannn07/Lyrics-Runners-V2/refs/heads/main/gambar/Screenshot%202025-03-16%20152247.png)
 
 ## Penggunaan
 
